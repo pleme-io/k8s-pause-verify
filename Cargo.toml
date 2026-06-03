@@ -1,6 +1,6 @@
 [package]
 name = "k8s-pause-verify"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 rust-version = "1.89.0"
 description = "pleme-io GitHub Action — assert pause-contract invariants on a paused-first ARC runner pool"

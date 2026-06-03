@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "fad735144a445e0266db1557df024d940173a9a44ed6159a25b6a8544d80cb15",
+  "cargo_lock_sha256": "a7c76fe937195c41640e105eed218fd30d891ea14c08b236dfe2c6a3d26a41ea",
   "target_resolves": {
     "base": {
       "anyhow-1.0.102": {
@@ -16,7 +16,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "k8s-pause-verify-0.1.2": {
+      "k8s-pause-verify-0.1.3": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -422,7 +422,7 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "k8s-pause-verify-0.1.2": {
+    "k8s-pause-verify-0.1.3": {
       "edition": "2024",
       "binaries": [
         {

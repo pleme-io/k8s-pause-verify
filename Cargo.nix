@@ -120,7 +120,7 @@ rec {
       };
       "k8s-pause-verify" = rec {
         crateName = "k8s-pause-verify";
-        version = "0.1.2";
+        version = "0.1.3";
         edition = "2024";
         crateBin = [
           {
@@ -156,9 +156,9 @@ rec {
       };
       "memchr" = rec {
         crateName = "memchr";
-        version = "2.8.0";
+        version = "2.8.1";
         edition = "2021";
-        sha256 = "0y9zzxcqxvdqg6wyag7vc3h0blhdn7hkq164bxyx2vph8zs5ijpq";
+        sha256 = "1n448jx01h5z2xknj6x2dhxgr8s8fb717cf6vfqj5lmhkpj7m53b";
         authors = [
           "Andrew Gallant <jamslam@gmail.com>"
           "bluss"
@@ -180,8 +180,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/pleme-actions-shared";
-          rev = "909ee7642e5e4012bf1ba53365994aaaecbb6279";
-          sha256 = "0qfg63630cpwfp5hkr1xf177s7999xvjzi5nx851n92sk08di3bz";
+          rev = "af7f105dcecb95cfa04e48dae1e21466b2062bbc";
+          sha256 = "0cqjiyvd4fhynps2cnsc4j1d90mcxn3js9vbdpmrcb575vcfdpad";
         };
         libName = "pleme_actions_shared";
         authors = [
