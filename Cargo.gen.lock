@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "b2d2be0b4f2cb187fa57efd06fc3fd31c3d69381b8efe9b8e529f49e22d27bdd",
+  "cargo_lock_sha256": "b5cf5aa136fa8a2b36dcdca09350a8764410efc4ce4ad7b3d5abac2a7489b33a",
   "target_resolves": {
     "base": {
       "anyhow-1.0.102": {
@@ -30,7 +30,7 @@
           },
           {
             "name": "pleme_actions_shared",
-            "package_key": "pleme-actions-shared-0.1.0",
+            "package_key": "pleme-actions-shared-0.1.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -72,7 +72,7 @@
           "std"
         ]
       },
-      "pleme-actions-shared-0.1.0": {
+      "pleme-actions-shared-0.1.1": {
         "runtime_dependencies": [
           {
             "name": "serde",
@@ -434,7 +434,7 @@
     "memchr-2.8.0": {
       "edition": "2021"
     },
-    "pleme-actions-shared-0.1.0": {
+    "pleme-actions-shared-0.1.1": {
       "edition": "2024"
     },
     "proc-macro2-1.0.106": {
@@ -481,7 +481,7 @@
     }
   },
   "git_nar_sha256": {
-    "pleme-actions-shared-0.1.0": "sha256-LymR6vePXFYivC6/sgVli20YS6TfPuyOriNRv45lyXQ="
+    "pleme-actions-shared-0.1.1": "sha256-f43YEJhaJBsK6rbEL3dPKR19TnA95AnLdfwyMMwwz2E="
   },
   "flake_metadata": {}
 }
