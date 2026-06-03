@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "b5cf5aa136fa8a2b36dcdca09350a8764410efc4ce4ad7b3d5abac2a7489b33a",
+  "cargo_lock_sha256": "fad735144a445e0266db1557df024d940173a9a44ed6159a25b6a8544d80cb15",
   "target_resolves": {
     "base": {
       "anyhow-1.0.102": {
@@ -16,7 +16,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "k8s-pause-verify-0.1.1": {
+      "k8s-pause-verify-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -64,7 +64,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "memchr-2.8.0": {
+      "memchr-2.8.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -249,7 +249,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -422,7 +422,7 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "k8s-pause-verify-0.1.1": {
+    "k8s-pause-verify-0.1.2": {
       "edition": "2024",
       "binaries": [
         {
@@ -431,7 +431,7 @@
         }
       ]
     },
-    "memchr-2.8.0": {
+    "memchr-2.8.1": {
       "edition": "2021"
     },
     "pleme-actions-shared-0.1.1": {
@@ -481,7 +481,7 @@
     }
   },
   "git_nar_sha256": {
-    "pleme-actions-shared-0.1.1": "sha256-f43YEJhaJBsK6rbEL3dPKR19TnA95AnLdfwyMMwwz2E="
+    "pleme-actions-shared-0.1.1": "sha256-Td3m2C6nLJbrbWsnLYftrILUgiRMWyb0tR460raPEjM="
   },
   "flake_metadata": {}
 }
